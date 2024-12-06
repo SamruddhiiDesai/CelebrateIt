@@ -1,0 +1,132 @@
+/* General styling for the container */
+.contact-container {
+    background-color: #f9f9f9;
+    padding: 40px;
+    font-family: 'Arial', sans-serif;
+    width: 1000px;
+    margin: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .contact-title {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 30px;
+    color: #333;
+  }
+  
+  /* Styling for the form */
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    height: 500px;
+    width: 500px;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-group label {
+    font-size: 1rem;
+    margin-bottom: 8px;
+    color: #333;
+  }
+  
+  .form-group input,
+  .form-group textarea {
+    padding: 12px;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    outline: none;
+  }
+  
+  .form-group input:focus,
+  .form-group textarea:focus {
+    border-color: #007bff;
+  }
+  
+  .submit-button {
+    background-color: #007bff;
+    color: white;
+    font-size: 1rem;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 200px;
+    
+  }
+  
+  .submit-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .submit-button:active {
+    background-color: #004085;
+  }
+  
+  /* Error message styling */
+  .error-message {
+    color: red;
+    font-size: 0.875rem;
+    margin-top: 5px;
+  }
+  
+
+
+
+    /* Container for the whole layout */
+.half-containerr {
+    height: 500px;
+    width: 600pxs;
+    background: goldenrod;
+    display: flex; /* Using Flexbox to align items side by side */
+    justify-content: space-between; /* Distribute space between the sections */
+    align-items: center; /* Vertically center the content */
+    /* height: 100vh;  */
+    /* Take full height of the viewport */
+    margin-top: 10px;
+  }
+  
+  /* Half Image Section */
+  .half-imagee {
+    flex: 1; /* Take half of the container */
+    position: relative; /* Ensures image stays in place */
+    overflow: hidden;
+    height: 533px;
+    width: 500px;
+    
+    
+  }
+  
+  .half-imagee img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures the image covers the area without distortion */
+  }
+  
+  /* Half Text Section */
+  .half-textt {
+    background: rgb(255, 169, 22);
+    flex: 1; /* Take half of the container */
+    padding: 20px;
+    text-align: left; /* Align text to the left */
+  }
+  
+  .half-textt h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .half-textt p {
+    font-size: 1.2rem;
+    color: #555;
+  }
+  
