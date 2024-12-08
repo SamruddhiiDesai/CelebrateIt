@@ -6,7 +6,7 @@ import MiddleBody from './MiddleBody';
 import Registration from './Registration';
 import Login from './Login';
 import Dashboard from './Dashboard';
-import AdminDashboard from './AdminDashboard';
+// import AdminDashboard from './AdminDashboard';
 import Gallery from './Gallery';
 import AboutUs from './AboutUs';
 import ContactUs from './ContactUs';
@@ -19,6 +19,7 @@ import VegDetails from './VegDetails';
 import NonvegSection from './NonvegSection';
 import NonvegDetails from './NonvegDetails';
 import PhotoSection from './PhotoSection';
+import PhotographerList from './PhotographerList';
 //import SweetSection from './SweetSection';
 //------------------------------
 
@@ -38,6 +39,10 @@ import DetailsPageFive from './DetailsPageFive';
 import DetailsPageSix from './DetailsPageSix';
 //import EngagementRouter from './EngagementRouter';
 import EngagementAndCompanyList from './EngagementAndCompanyList';
+import AdminPanel from './AdminPanel.js';
+import DashBoardAdmin from './DashboardAdmin.jsx';
+import AddPhotographer from './AddPhotographer.jsx'
+
 const AppRouter = () => {
   return (
     <Router>
@@ -52,7 +57,7 @@ const AppRouter = () => {
           <Route path="/registration" element={<Registration />} />
           <Route path="/login" element={<Login />} />
           <Route path="/dashboard" element={<Dashboard />} />
-          <Route path="/admindashboard" element={<AdminDashboard />} />
+          {/* <Route path="/admindashboard" element={<AdminDashboard />} /> */}
           <Route path="/gallery" element={<Gallery />} />
           <Route path="/aboutus" element={<AboutUs />} />
           <Route path="/contactus" element={<ContactUs />} />
@@ -75,7 +80,10 @@ const AppRouter = () => {
           <Route path="/details/5" element={<DetailsPageFive />} />
           <Route path="/details/6" element={<DetailsPageSix />} />
           <Route path="/engagement" element={< EngagementAndCompanyList/>} />
-
+          <Route path="/adminpanel" element={<AdminPanel/>} /> 
+          <Route path="/dashboardAdmin"  element={<DashBoardAdmin/>}/>
+          <Route path="/addphotographer" element={<AddPhotographer/>}/>
+          <Route path="/photographerlist" element={<PhotographerList/>}/>
 {/* ------------------------------ */}
         </Routes>
       </div>

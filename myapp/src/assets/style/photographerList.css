@@ -1,0 +1,51 @@
+/* 
+
+.cheap{
+   
+   box-shadow:  0 4px 8px #F4ACB7;
+   border-radius: 20px;
+}
+
+.expensive{
+    box-shadow:  0 4px 8px #9D8189;
+    border-radius: 20px;
+} */
+
+.card{
+    font-size: 20px;
+    width: 100%; /* Ensures the card takes the full width of the div */ 
+    max-width: 600px; /* Maximum width for the card */ 
+    padding: 20px;
+}
+
+.card img{
+    /* width: 18rem;
+    height:12rem; */
+    width: 15rem;
+    height: 12rem;
+}
+
+form{
+    font-size: 25px;
+    
+}
+
+.searchdiv {
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;  
+    font-size: 20px;
+}
+
+.searchdiv form{
+    height: fit-content;
+    width: 400px;
+    justify-self: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    margin: 20px;
+}
+
+ form button.btn{
+    margin:10px;
+}

@@ -239,3 +239,22 @@
   margin: 10px auto;
   max-width: 800px;
 }
+
+/* search form */
+.searchdiv {
+  margin: 20px;
+  padding: 20px;
+  border-radius: 10px;  
+  font-size: 20px;
+}
+
+.searchdiv form{
+  height: fit-content;
+  width: 400px;
+  justify-self: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  margin: 20px;
+}
+
+
