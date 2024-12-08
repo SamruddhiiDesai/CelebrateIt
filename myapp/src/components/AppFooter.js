@@ -89,7 +89,7 @@ function AppFooter() {
               <li><Link to="/">Terms & Privacy</Link></li>
               <li><Link to="/aboutus">About Us</Link></li>
               <li><Link to="/">Wedding Website</Link></li>
-              <li><Link to="/AdminDashboard">Administration Login</Link></li>
+              <li><Link to="/adminpanel">Administration Login</Link></li>
             </ul>
           </Col>
 

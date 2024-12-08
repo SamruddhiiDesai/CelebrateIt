@@ -33,7 +33,7 @@
 //       {/* <MiddleBody /> */}
 //       {/* <Registration></Registration> */}
 //       {/* <Login></Login> */}
-//       {/* <Dashboard></Dashboard> */}
+      // {/* <Dashboard></Dashboard> */}
 //       {/* <AdminDashboard></AdminDashboard> */}
 //       {/* <Gallery></Gallery> */}
 //       {/* <AboutUs></AboutUs> */}
